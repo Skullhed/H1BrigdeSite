@@ -1,0 +1,29 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url('/includes/brigde.jpg');
+    background-size: cover;
+}
+
+#tyngdekraft, #opdrift {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tyngdekraft td, #tyngdekraft th, #opdrift td, #opdrift th {
+	border: 1px solid black;
+	text-align: left;
+    padding: 8px;
+}
+
+#facit {
+    border-collapse: collapse;
+    width: 30%;
+}
+
+#facit td, #facit th {
+	border: 1px solid black;
+	text-align: left;
+    padding: 8px;
+}

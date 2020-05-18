@@ -1,0 +1,54 @@
+<html>
+  <meta charset = "UTF-8">
+    <header>
+        <title>
+            Bro opgave
+        </title>
+    </header>
+    <head>
+      <script src="/js/navbar.js"></script>
+       <link rel="stylesheet" type="text/css" href="/css/index.css">
+      </head>
+      <body>
+        <center>
+          <div id="fahk">
+            <table>
+              <div class="row" id="div69">
+                <div class="column left " id="div1" style="background-color:#aaa;">
+                  <h2><a href="./info.html">Info</a></h2>
+                  <p id="p1">Her kan du læse om broens historie, fakta og design</p>
+                </div>
+                <div class="column middle" id="div2" style="background-color:#aaa;">
+                  <h2><a href="./opdrift.html">Opdrift</a></h2>
+                  <p id="p">Her kan du prøve at teste hvor meget broen kan holde til ved at indtast forskellige</p>
+                </div>
+                <div class="column right" id="div3" style="background-color:#aaa;">
+                  <h2><a href="./kredslob.html">El-Kredsløb</a></h2>
+                  <p id= "p2">Her kan du prøve at teste hvor strøm broen bruger til at holde alle den lys tændt</p>
+                </div>
+              </div>  
+            </table>
+          </div>
+          
+          <div id='prova' style='display: none;'>
+            <script>
+              window.onload = function () {
+                  setTimeout(appeardiv,10000);
+              }
+              function appeardiv() {
+                  document.getElementById('prova').style.display= "block";
+              }
+            </script> 
+            
+            <div class="box" id="fuhk">
+              <a class="button" href="info.html">Info omkring broen</a>
+            </div>
+          </div>
+
+          <video id="myVideo" loop autoplay="autoplay" height="50%" width="100%" muted>
+            <source src="/includes/test 1.1.mp4" type="video/mp4">     
+            Your browser does not support HTML5 video.
+          </video> 
+        </center>
+      </body>
+</html>

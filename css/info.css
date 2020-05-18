@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.text {
+    margin-top: 5%;
+    float: left;
+    margin-left: 25%;
+    width: 50%;
+}
+
+#maintext {
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+
+#fakta {
+    height: 22px;
+    color: red;
+    background-color: black;
+}
+
+#result1 {
+    width: 75%;
+}

@@ -1,0 +1,19 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url('/includes/electrical-circuits.jpg');
+  background-size: cover;
+}
+
+#pris, #watt, #sponding, #strom {
+border-collapse: collapse;
+width: 100%;
+}
+
+#pris td, #pris th, #watt td, #watt th, #strom td, #strom th, #sponding td, #sponding th {
+border: 1px solid black;
+text-align: left;
+padding: 8px;
+color: blue;
+}
